@@ -1,0 +1,46 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Navbar */
+.navBar {
+  position: fixed;
+  background: #fbfcfc;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  padding: 0 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1px 0.125rem 0.125rem #5f5d5d33;
+}
+
+/* Home */
+
+.homeContent {
+  display: flex;
+  overflow-y: auto;
+}
+
+/* Footer */
+
+.footerContainer {
+  background: #f0f1f1;
+  height: 4rem;
+  padding: 2rem 4rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 1px solid whitesmoke;
+}
+
+.productContainer {
+  margin-top: 4rem;
+  z-index: -1;
+}
