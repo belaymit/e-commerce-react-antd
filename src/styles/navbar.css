@@ -1,0 +1,16 @@
+.menuContainer {
+  padding: 0.5rem 2rem !important;
+  background: #fbfcfc;
+  border: none;
+}
+
+.storeTitle {
+  color: #1b5ac0 !important;
+  font-size: 1.4rem !important;
+}
+
+.shoppingCart {
+  font-size: 1.5rem !important;
+  color: #d47408;
+  cursor: pointer;
+}
