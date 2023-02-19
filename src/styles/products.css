@@ -1,0 +1,26 @@
+.productContainer {
+  margin: 0 4rem;
+}
+
+.itemCard,
+.itemCardBadge {
+  margin: 0.5rem;
+}
+
+.itemCardImage {
+  height: 9.375rem !important;
+  object-fit: scale-down;
+  margin: 0.5rem;
+  border-radius: 0.5rem !important;
+}
+
+.spinner {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  font-size: 5rem !important;
+}
+
+.productsContainer {
+  padding: 0.5rem;
+}
